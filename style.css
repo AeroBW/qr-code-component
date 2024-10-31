@@ -1,5 +1,50 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 15px;
+    font-family: Outfit, sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    color: hsl(218, 44%, 22%);
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 17rem;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 1.25rem;
+}
+
+p{
+    text-align: center;
+    margin: 1rem 1rem 1rem;
+    font-weight: 400;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+
+
+
+
+
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px;
+    text-align: center;
 }
 
 .attribution a { 
